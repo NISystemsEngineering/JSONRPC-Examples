@@ -14,13 +14,6 @@
 			<Item Name="client.add.vi" Type="VI" URL="../LabVIEW API/client.add.vi"/>
 			<Item Name="client.subtract.vi" Type="VI" URL="../LabVIEW API/client.subtract.vi"/>
 		</Item>
-		<Item Name="Methods" Type="Folder">
-			<Item Name="add.vi" Type="VI" URL="../Methods/add.vi"/>
-			<Item Name="divide.vi" Type="VI" URL="../Methods/divide.vi"/>
-			<Item Name="echo.vi" Type="VI" URL="../Methods/echo.vi"/>
-			<Item Name="multiply.vi" Type="VI" URL="../Methods/multiply.vi"/>
-			<Item Name="subtract.vi" Type="VI" URL="../Methods/subtract.vi"/>
-		</Item>
 		<Item Name="jsonrpc" Type="Web Service">
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
@@ -60,7 +53,6 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="RPC Method Template.vit" Type="VI" URL="/&lt;vilib&gt;/NI/NI JSONRPC Server Framework/RPC Method Template.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
