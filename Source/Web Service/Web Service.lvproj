@@ -21,8 +21,6 @@
 			<Item Name="multiply.vi" Type="VI" URL="../Methods/multiply.vi"/>
 			<Item Name="subtract.vi" Type="VI" URL="../Methods/subtract.vi"/>
 		</Item>
-		<Item Name="close methods.vi" Type="VI" URL="../close methods.vi"/>
-		<Item Name="find method.vi" Type="VI" URL="../find method.vi"/>
 		<Item Name="jsonrpc" Type="Web Service">
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
@@ -62,9 +60,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="load methods.vi" Type="VI" URL="../load methods.vi"/>
 		<Item Name="RPC Method Template.vit" Type="VI" URL="/&lt;vilib&gt;/NI/NI JSONRPC Server Framework/RPC Method Template.vit"/>
-		<Item Name="run method.vi" Type="VI" URL="../run method.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -78,6 +74,7 @@
 				<Item Name="JSONRPC Server.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NI JSONRPC Server Framework/Classes/Server/JSONRPC Server.lvclass"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Method Manager.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NI JSONRPC Server Framework/Classes/Method Manager/Method Manager.lvclass"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
